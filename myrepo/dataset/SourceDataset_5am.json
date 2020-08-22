@@ -1,0 +1,38 @@
+{
+	"name": "SourceDataset_5am",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "battery_power",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Bluetooth",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "clock_speed",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "mtest_json"
+		}
+	}
+}
