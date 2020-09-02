@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=aljazeycsdsqlserver.database.windows.net;initial catalog=aljazeycsdsqldb;user id=aljazeycsdadmin",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFMSkFaRVlDU0RERl9jNmVlMjhhMi0xMDIzLTQwZDgtOTRhMy00ZmE4MTdjMDhhZjUiDQp9"
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=alcsdserver.database.windows.net;initial catalog=ALcsddb;user id=aljadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFMQ1NEREZfNjBhOGM2YTctZDQ5Zi00MmI3LWExNjUtMzVlODA5NmY1Yjc0Ig0KfQ=="
 		}
 	}
 }
