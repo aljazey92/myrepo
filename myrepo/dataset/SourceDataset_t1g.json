@@ -1,0 +1,57 @@
+{
+	"name": "SourceDataset_t1g",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "honeyproduction.csv",
+				"container": "aljazeycsdblobcontainer"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "state",
+				"type": "String"
+			},
+			{
+				"name": "numcol",
+				"type": "String"
+			},
+			{
+				"name": "yieldpercol",
+				"type": "String"
+			},
+			{
+				"name": "totalprod",
+				"type": "String"
+			},
+			{
+				"name": "stocks",
+				"type": "String"
+			},
+			{
+				"name": "priceperlb",
+				"type": "String"
+			},
+			{
+				"name": "prodvalue",
+				"type": "String"
+			},
+			{
+				"name": "year",
+				"type": "String"
+			}
+		]
+	}
+}
